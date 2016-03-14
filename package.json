@@ -1,0 +1,30 @@
+{
+  "name": "yandex-maze",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "bower i && tsd install"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.11.1",
+    "chai": "^3.5.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-filter": "^3.0.1",
+    "gulp-jade": "^1.1.0",
+    "gulp-open": "^1.0.0",
+    "gulp-plumber": "^1.0.1",
+    "gulp-sass": "^2.1.1",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-typescript": "^2.10.0",
+    "gulp-watch": "^4.3.5",
+    "tsd": "^0.6.5"
+  },
+  "dependencies": {
+    "mocha": "2.4.5"
+  }
+}
